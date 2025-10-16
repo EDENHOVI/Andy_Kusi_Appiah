@@ -45,8 +45,60 @@
    <h2>
     Academic Sections
    </h2>
+   
    <div class="accordion-item">
-    <button onclick="toggleAccordion(this)">
+    <button onclick="toggleAccordion(this)" class="accordion-btn"><span class="arrow">▶</span> Author</button>
+    <div class="accordion-content">
+      <div class="sub-accordion-item">
+        <button onclick="toggleSubAccordion(this)" class="sub-accordion-btn"><span class="arrow">▶</span> Subscribe to Mailing List</button>
+        <div class="sub-accordion-content">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScI90PrH6UbgHBwqA8blXaf3gELsmCoXoq8j7cBLTq84jwhEg/viewform" target="_blank" rel="noopener">Open Subscription Form</a>
+        </div>
+      </div>
+      <div class="sub-accordion-item">
+        <button onclick="toggleSubAccordion(this)" class="sub-accordion-btn">
+          <span class="arrow">▶</span> Press Releases
+        </button>
+        <div class="sub-accordion-content">
+          <p>
+            <a href="pre_event_press_release(Sept_27).docx" target="_blank" rel="noopener">
+              pre_event_press_release.docx
+            </a>
+          </p>
+          <p>
+            <a href="post_event_press_release(Sept_27).docx" target="_blank" rel="noopener">
+              post_event_press_release.docx
+            </a>
+          </p>
+        </div>
+      </div>
+      
+      <div class="sub-accordion-item">
+        <button onclick="toggleSubAccordion(this)" class="sub-accordion-btn"><span class="arrow">▶</span> Events</button>
+        <div class="sub-accordion-content">
+          <button class="btn" onclick="openFlyerModal()">View September 27 Event Flyer</button>
+        </div>
+      </div>
+
+      <div class="sub-accordion-item">
+        <button onclick="toggleSubAccordion(this)" class="sub-accordion-btn">
+          <span class="arrow">▶</span> Thank You Cards
+        </button>
+        <div class="sub-accordion-content">
+          <button class="btn" onclick="openThankYouModal()">View September 27 Thank You Card</button>
+        </div>
+      </div>
+
+      <div class="sub-accordion-item">
+        <button onclick="toggleSubAccordion(this)" class="sub-accordion-btn"><span class="arrow">▶</span> Survey Link</button>
+        <div class="sub-accordion-content">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScfx2f3R61VsQUryyvS-vtshzFIyGVAnUKdsDlro31ZbL3XTQ/viewform" target="_blank" rel="noopener">Open Survey Form</a>
+        </div>
+      </div>
+    </div>
+   </div>
+<div class="accordion-item">
+    <button onclick="toggleAccordion(this)"><span class="arrow">▶</span>
      Writings
     </button>
     <div class="accordion-content">
@@ -285,7 +337,7 @@
     </div>
    </div>
    <div class="accordion-item">
-    <button onclick="toggleAccordion(this)">
+    <button onclick="toggleAccordion(this)"><span class="arrow">▶</span>
      Teaching Experience
     </button>
     <div class="accordion-content">
@@ -318,7 +370,7 @@
     </div>
    </div>
    <div class="accordion-item">
-    <button onclick="toggleAccordion(this)">
+    <button onclick="toggleAccordion(this)"><span class="arrow">▶</span>
      Academic History
     </button>
     <div class="accordion-content">
@@ -395,7 +447,7 @@
     </div>
    </div>
    <div class="accordion-item">
-    <button onclick="toggleAccordion(this)">
+    <button onclick="toggleAccordion(this)"><span class="arrow">▶</span>
      University Activities
     </button>
     <div class="accordion-content">
@@ -482,7 +534,7 @@
     </div>
    </div>
    <div class="accordion-item">
-    <button onclick="toggleAccordion(this)">
+    <button onclick="toggleAccordion(this)"><span class="arrow">▶</span>
      Leadership &amp; Community Involvement
     </button>
     <div class="accordion-content">
@@ -577,7 +629,7 @@
     </div>
    </div>
    <div class="accordion-item">
-    <button onclick="toggleAccordion(this)">
+    <button onclick="toggleAccordion(this)"><span class="arrow">▶</span>
      Conferences/Workshops
     </button>
     <div class="accordion-content">
@@ -621,7 +673,7 @@
     </div>
    </div>
    <div class="accordion-item">
-    <button onclick="toggleAccordion(this)">
+    <button onclick="toggleAccordion(this)"><span class="arrow">▶</span>
      Students Mentored
     </button>
     <div class="accordion-content">
@@ -693,9 +745,6 @@
        Carys Washer - CarysWasher@cmail.carleton.ca
       </p>
       <p>
-       Yalda Sarwar - YaldaSarwar@cmail.carleton.ca
-      </p>
-      <p>
        Alinafe Kinyambo - kinyamboalinafe@gmail.com
       </p>
       <p>
@@ -756,7 +805,7 @@
     </div>
    </div>
    <div class="accordion-item">
-    <button onclick="toggleAccordion(this)">
+    <button onclick="toggleAccordion(this)"><span class="arrow">▶</span>
      Works Cited
     </button>
     <div class="accordion-content">
@@ -872,7 +921,7 @@
           especially in the political ecology of urban domestic water access.
     </p>
     <p>
-     My teaching is rooted in a student-centred, inclusive approach that
+     My teaching is rooted in a experiential learning-centred, inclusive approach that
           encourages critical thinking and appreciation of human-environment
           relationships. Inspired by the exceptional educators in my life, I aim
           to create a supportive learning atmosphere where students can connect
@@ -910,11 +959,26 @@
    <p>
     Were you mentored by Dr. Kusi-Appiah? We'd love your reflections.
    </p>
-   <iframe frameborder="0" height="600" src="https://docs.google.com/forms/d/e/1FAIpQLSfLsgD0R3eiAh5M2I3wS5wdO3g0TKrp5PqMmz7tqFC0GlimGQ/viewform" width="100%">
+   <iframe frameborder="0" height="600" target="_blank" src="https://docs.google.com/forms/d/e/1FAIpQLSfLsgD0R3eiAh5M2I3wS5wdO3g0TKrp5PqMmz7tqFC0GlimGQ/viewform" width="100%">
     Loading…
    </iframe>
   </section>
   <script src="script.js"></script>
   <!-- <script src="carousel.js"></script> -->
- </body>
+ 
+  <div id="flyerModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeFlyerModal()">&times;</span>
+      <img src="flyer.png" alt="Event Flyer" class="flyer-image" />
+    </div>
+  </div>
+
+  <div id="thankYouModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeThankYouModal()">&times;</span>
+      <img src="thankyou_flyer.jpeg" alt="Thank You Card" class="flyer-image" />
+    </div>
+  </div>
+  
+</body>
 </html>

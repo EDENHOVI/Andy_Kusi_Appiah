@@ -212,3 +212,76 @@ a:hover {
 .carousel-btn:hover {
   background-color: #0056b3;
 }
+
+
+
+/* Added styles for nested author sub-accordions and arrows */
+.accordion-btn, .sub-accordion-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.sub-accordion-btn {
+  background-color: #0056b3;
+  padding: 0.6rem 1rem 0.6rem 2rem;
+  font-size: 0.95rem;
+}
+
+.sub-accordion-content {
+  margin-left: 1rem;
+}
+.sub-accordion-content {
+  display: none;
+  margin-left: 1rem;
+}
+
+.arrow {
+  margin-right: 10px;
+  transition: transform 0.25s ease;
+  font-weight: 700;
+}
+
+.sub-accordion-btn .arrow {
+  font-size: 0.9rem;
+}
+
+.btn {
+  background-color: #002d62;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.sub-accordion-content a {
+  color: #004080;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.sub-accordion-content a:hover {
+  color: #ffc107;
+  text-decoration: underline;
+}
+
+.flyer-image {
+  width: 80%;          /* change this percentage to make the image narrower or wider */
+  max-width: 600px;    /* optional: limit it so it doesn’t get too big */
+  height: auto;        /* keeps the correct aspect ratio */
+  border-radius: 8px;
+}
